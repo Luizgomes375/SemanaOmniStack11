@@ -6,6 +6,7 @@ import './global.css'
 import Logon from './pages/logon'
 import Register from './pages/register'
 import Profile from './pages/profile'
+import NewIncident from './pages/NewIncident'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
       <Route path="/" exact component={Logon}/>
       <Route path="/register" component={Register}/>
       <Route path="/profile" component={Profile}/>
+      <Route path="/incidents/new" component={NewIncident}/>
     </Switch>
     </BrowserRouter>
    
